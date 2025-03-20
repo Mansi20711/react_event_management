@@ -9,7 +9,7 @@ function App(){
     <React.Fragment>
     <ToastContainer position="top-right" autoClose={3000} />
       <Route/>
-    </React.Fragment>
+    </React.Fragment >
   );
 }
 
