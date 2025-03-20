@@ -4,7 +4,7 @@ import './assets/scss/themes.scss';
 import { ToastContainer } from "react-toastify";
 
 
-function App() {
+function App(){
   return (
     <React.Fragment>
     <ToastContainer position="top-right" autoClose={3000} />
