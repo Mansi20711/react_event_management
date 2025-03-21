@@ -4,6 +4,7 @@ export const PageTitle = "Login ";
 export const SendEmail = "Send Email";
 export const Verfi = "Verify Email";
 export const Otp = "OTP";
+export const OldPassword="Old Password"
 export const NewPassword = "New Password";
 export const ConfirmPassword = "Confirm Password";
 export const DropDown={
@@ -11,4 +12,5 @@ export const DropDown={
     ChangePassword:"change password",
     Logout:"logout"
 };
+
 

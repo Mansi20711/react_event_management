@@ -56,7 +56,7 @@ const ProfileDropdown = () => {
                         </Link>
                     </DropdownItem>
                     <DropdownItem className='p-0'>
-                        <Link to= "/apps-chat" className="dropdown-item">
+                        <Link to= "/changePassword" className="dropdown-item">
                             <span className="align-middle">{DropDown.ChangePassword}</span>
                         </Link>
                     </DropdownItem>
