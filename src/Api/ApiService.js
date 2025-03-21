@@ -6,7 +6,7 @@ const ApiService = {
     try {
         const headers = {
         "Content-Type": "application/json",
-        ...(token && { Authorization: ` ${token}` }),
+        ...(token && { Authorization: ` ${token}` } ),
         };
 
         const options = {
