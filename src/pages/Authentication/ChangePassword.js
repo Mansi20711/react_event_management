@@ -47,8 +47,6 @@ const ChangePassword = () => {
                 };
                 const response = await changePasswordApi(payload);
 
-                console.log("API Response:", response);
-
                 if (StatusMessage(response?.statusCode)) {
                     toast.success(Check.update(Password));
                     setSuccessMsg(Check.reset(Password));
@@ -81,9 +79,6 @@ const ChangePassword = () => {
                                 <div className="text-center mt-2">
                                     <h5 className="text-primary">{Texts.Change_Password}</h5>
                                 </div>
-
-                                {errorMsg && <Alert color="danger">{errorMsg}</Alert>}
-                                {successMsg && <Alert color="success">{successMsg}</Alert>}
 
                                 <div className="p-2 mt-2">
                                     <Form onSubmit={validation.handleSubmit} noValidate>
